@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<div class="q-index">
+  <h1 class="h1-q-index">NO CHEATING</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <!-- <th>Content</th> -->
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <% @questions.each do |question| %>
+        <tr>
+          <td class="question-data"><%= question.content %></td>        
+        <tr>
+          <td class="true-false-data">
+            <button class="true-button"><a class="link" href="http://www.troll.me/images/jackie-chan-whut/yes-its-true.jpg">ZING?</a></button>
+            <button class="false-button"><a class="link" href="http://m.memegen.com/2zo1l9.jpg">FALSE?</a></button>
+          </td>
+          <td class="check-data">
+            <button class="check-button"><%= link_to 'BUNDLE', question %></button>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>
+
+<p class="new-index"><%= link_to 'New Question', new_question_path %></p>

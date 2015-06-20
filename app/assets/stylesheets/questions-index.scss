@@ -1,0 +1,61 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.h1-q-index {
+  font-family: Courier;
+}
+
+.h1-navbar {
+  font-family: Courier;
+}
+.q-index {
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.right {
+  text-transform: uppercase;
+}
+
+.question-data {
+  line-height: 100px;
+  font-size: 20px;
+  font-family: Impact;
+}
+
+.true-button {
+  background-color: green;
+  font-family: Courier;
+}
+
+.false-button {
+  background-color: red;
+  font-family: Courier;
+}
+
+.check-button {
+  background-color: yellow;
+  font-family: Courier;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+.link {
+  color: red;
+}
+
+.link:hover {
+  background-color: transparent;
+  color: black;
+}
+
+
+
+
+
+
+
+
